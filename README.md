@@ -2,8 +2,11 @@
 Three Games using Unreal Engine Chaos Physics
 
 **Level 1: Projet Pachinko**
+ 
   <img width="409" height="480" alt="image" src="https://github.com/user-attachments/assets/dd1fd590-4c7d-410b-a81b-d78daa9849d4" />
+
 contrôles: barre d'espace.
+
 Ce projet est une simulation du jeu d'arcade, de type Pachinko, l'objectif était de maitriser les interactions physiques, la gestion des collisions et la boucle de jeu, par des BluePrints.
 **Mécaniques physiques**
 Le gameplay repose sur le moteur Chaos Physics d'unreal:
