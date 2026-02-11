@@ -38,3 +38,11 @@ On ne pouvais pas cliquer sur le bouton "play again" et après on ne récupérai
 
 Solution: ajouter "Set Input Mode UI Only" et "Set Input Mode Game Only"
 
+-
+**Level 2: Projet Wrecking Ball**
+
+<img width="716" height="400" alt="Capture d’écran 2026-02-11 151056" src="https://github.com/user-attachments/assets/80207352-0754-434c-88f2-24f0679ec6be" />
+
+
+
+
