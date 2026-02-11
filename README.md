@@ -47,12 +47,13 @@ Solution: ajouter "Set Input Mode UI Only" et "Set Input Mode Game Only"
 <img width="716" height="400" alt="Capture d’écran 2026-02-11 151056" src="https://github.com/user-attachments/assets/80207352-0754-434c-88f2-24f0679ec6be" />
 
 Le joueur controlle une Grue ( touches Q et D ) avec une Boule de démolition pour détruire des structures et marqués des points dans un temps imparti.
+
 **Mécaniques physiques**
-- Simulation physiques et gravités
-- Contraintes Physiques
-- Gestion de la masse
-- Collisions
-- 
+- Simulation physiques et gravités: configuration avec "Simulates Physics"
+- Contraintes Physiques: relie la boule et la grue avec un cable et permet d'obtenir un balancement réaliste.
+- Gestion de la masse: permet d'ajuster la masse pour qu'il y ait assez d'énergie cinétique.
+- Collisions : Configuration des Collision Presets sur "PhysicsActor" pour que les cubes s'effondrent dynamiquement lors de l'impact.
+
 **Choix Techniques**
 - Scoring: une TriggerBox detecte les cubes qui tombent à l'aide d'un tag
 - Timer/Gestion du temps
