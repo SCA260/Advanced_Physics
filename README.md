@@ -8,6 +8,7 @@ Three Games using Unreal Engine Chaos Physics
 contrôles: barre d'espace.
 
 Ce projet est une simulation du jeu d'arcade, de type Pachinko, l'objectif était de maitriser les interactions physiques, la gestion des collisions et la boucle de jeu, par des BluePrints.
+
 **Mécaniques physiques**
 Le gameplay repose sur le moteur Chaos Physics d'unreal:
 - Matériaux Physiques: pour la restitution et la frictions (Frictions et rebonds). La configuration utilisée permet de Maximiser les rebonds et minimiser les frottements, afin d'obtenir un comportements réalistes et dynamiques.
@@ -18,4 +19,22 @@ Le gameplay repose sur le moteur Chaos Physics d'unreal:
 	- Bonus: ajoute 100 points de scores
 	- Bonus+ ajoute une balle supplémentaire
 
+**Choix Techniques**
+- GameMode centralisé: 
+	- Agit comme le cerveau de la partie
+	- Stocke le score et les variables
+- Systeme de spawner:
+	- limites de balles
+- UI
+	- Affichage du score
+	- DataBinding
+
+**Problèmes rencontrés**
+- Rebonds de la balle sur l'axe Z
+
+Solution: décomposer le vecteur et ajouter l'impulsion uniquement sur X et Y, laisser Z à 0.
+- Conflits Souris/Cameras
+On ne pouvais pas cliquer sur le bouton "play again" et après on ne récupérait pas l'input du joueur
+
+Solution: ajouter "Set Input Mode UI Only" et "Set Input Mode Game Only"
 
