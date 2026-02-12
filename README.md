@@ -48,6 +48,8 @@ Solution: ajouter "Set Input Mode UI Only" et "Set Input Mode Game Only"
 
 Le joueur controlle une Grue ( touches Q et D ) avec une Boule de démolition pour détruire des structures et marqués des points dans un temps imparti.
 
+![Wrecking_Ball](https://github.com/user-attachments/assets/b405a424-b5c1-47ee-a853-a5d226f264e4)
+
 **Mécaniques physiques**
 - Simulation physiques et gravités: configuration avec "Simulates Physics"
 - Contraintes Physiques: relie la boule et la grue avec un cable et permet d'obtenir un balancement réaliste.
@@ -67,4 +69,7 @@ Solution: Variable de référence.
 
 
 <img width="1002" height="508" alt="Capture d’écran 2026-02-12 164131" src="https://github.com/user-attachments/assets/8421c211-91a4-451c-92ad-dbe488fcaff6" />
+
+![GlassFalling](https://github.com/user-attachments/assets/23ad3b40-a14b-4546-9db2-bf03ff5851db)
+
 
