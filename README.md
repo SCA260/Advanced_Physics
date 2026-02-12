@@ -63,5 +63,8 @@ Le joueur controlle une Grue ( touches Q et D ) avec une Boule de démolition po
 - communication entre les blueprints: Target is self
 Solution: Variable de référence.
 
+**Level 3: Projet Jeu du serveur**
 
+
+<img width="1002" height="508" alt="Capture d’écran 2026-02-12 164131" src="https://github.com/user-attachments/assets/8421c211-91a4-451c-92ad-dbe488fcaff6" />
 
