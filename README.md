@@ -67,9 +67,18 @@ Solution: Variable de référence.
 
 **Level 3: Projet Jeu du serveur**
 
+Le joueur dois déplacer un plateau d'un point A à un point B en gardant tout les verres dans le plateau, déplacement "zqsd" et saisir le plateau avec clic gauche.
 
 <img width="1002" height="508" alt="Capture d’écran 2026-02-12 164131" src="https://github.com/user-attachments/assets/8421c211-91a4-451c-92ad-dbe488fcaff6" />
 
 ![GlassFalling](https://github.com/user-attachments/assets/23ad3b40-a14b-4546-9db2-bf03ff5851db)
 
+**Mécaniques physiques**
+- Simulation de l'inertie et des mouvements
+- Friction et adherence: les verres ne sont pas attachés au plateau mais tiennent grace à la friction.
+- Centre de gravité: Les centres de masses ont étés abaissés pour avoir un fond de verre lourd, pour avoir une stabilité.
+
+**Choix Techniques**
+- Scoring: une TriggerBox l'arrivée des verres au point B et une autre la chute.
+- Victoire/défaite
 
